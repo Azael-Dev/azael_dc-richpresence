@@ -36,5 +36,5 @@ Citizen.CreateThread(function()
         SetRichPresence(text)
 
         Citizen.Wait(wait)
-	end
+    end
 end)
