@@ -19,6 +19,12 @@ git clone https://github.com/Azael-Dev/azael_dc-richpresence [local]/[azael]/[di
 ```
 ensure azael_dc-richpresence
 ```
+
+- สามารถตรวจสอบการกำหนดค่าเพิ่มเติมได้ที่ [config.lua](https://github.com/Azael-Dev/azael_dc-richpresence/blob/main/config.lua)
+
+## เครดิต
+- [AZAEL](https://discord.gg/Ca5W62f)
+
 ## กฎหมาย
 ### ใบอนุญาต
 
