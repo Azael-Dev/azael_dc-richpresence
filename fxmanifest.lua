@@ -10,7 +10,7 @@ version '1.1.3'
 
 author 'Azael Dev'
 
-url 'https://fivem.azael.dev'
+url 'https://github.com/Azael-Dev/azael_dc-richpresence'
 
 shared_script 'config.lua'
 
