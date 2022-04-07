@@ -1,5 +1,5 @@
 # azael_dc-richpresence
-[FiveM](https://fivem.net/) - Discord Rich Presence
+[FiveM](https://fivem.net/) - [Discord Rich Presence](https://discord.com/rich-presence)
 
 <img src="https://i.imgur.com/1bvoKRG.png" width="300"/>
 
