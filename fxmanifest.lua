@@ -1,4 +1,4 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 
 game 'gta5'
 
@@ -6,7 +6,7 @@ name 'azael_dc-richpresence'
 
 description 'DC - Rich Presence'
 
-version '1.1.3'
+version '1.1.4'
 
 author 'Azael Dev'
 

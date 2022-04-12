@@ -1,7 +1,9 @@
 # azael_dc-richpresence
 [FiveM](https://fivem.net/) - [Discord Rich Presence](https://discord.com/rich-presence)
 
-<img src="https://i.imgur.com/1bvoKRG.png" width="300"/>
+<img src="https://i.imgur.com/Cgvn2pq.png" width="300"/>
+
+<img src="https://i.imgur.com/V6UyFI6.png" width="300"/>
 
 ## ดาวน์โหลด
 

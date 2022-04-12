@@ -10,8 +10,8 @@
 --============================================================ 
 
 local resource = GetCurrentResourceName()
-local timeout = (1000 * 60) * CONFIG.Option.Update.Time
-local players = 0
+local timeout = (1000 * CONFIG.Option.Update.Time)
+local players, details = 0
 
 local function setRichPresence()
     local active = GetNumPlayerIndices()
@@ -19,7 +19,8 @@ local function setRichPresence()
     if active > 0 and active ~= players then
         GlobalState[resource] = {
             players = active,
-            maxclients = GetConvar('sv_maxclients')
+            maxclients = GetConvar('sv_maxclients'),
+            details = details
         }
 
         players = active
@@ -30,4 +31,18 @@ local function setRichPresence()
     end)
 end
 
-setRichPresence()
+Citizen.CreateThread(function()
+    local continue = false
+
+    Citizen.SetTimeout(10000, function()
+        continue = true
+    end)
+    
+    while not GetConvar('sv_projectDesc') and not continue do
+        Citizen.Wait(1000)
+    end
+
+    details = string.gsub(GetConvar('sv_projectDesc', 'Need to set sv_projectDesc'), '[%^0%^1%^2%^3%^4%^5%^6%^7%^8%^9]', '')
+
+    setRichPresence()
+end)
