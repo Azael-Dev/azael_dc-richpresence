@@ -16,6 +16,7 @@ git clone https://github.com/Azael-Dev/azael_dc-richpresence [local]/[azael]/[di
 
 ### ด้วยตนเอง
 - ดาวน์โหลด https://github.com/Azael-Dev/azael_dc-richpresence/archive/refs/heads/main.zip
+- แก้ไข `azael_dc-richpresence-main` เป็น `azael_dc-richpresence`
 - วางไว้ใน `[local]/[azael]/[discord]`
 
 ## ติดตั้ง
