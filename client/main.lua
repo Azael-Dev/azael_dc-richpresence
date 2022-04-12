@@ -110,6 +110,7 @@ end
 
 Citizen.CreateThread(function()
     local wait = 1000 * (CONFIG.Option.Update.Time - 2)
+		
     while CONFIG.Option.Display.Activity.Enable do
         local ped = PlayerPedId()
         local coords = GetEntityCoords(ped, true)
