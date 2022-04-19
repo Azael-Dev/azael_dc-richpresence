@@ -18,4 +18,7 @@ server_script 'server/main.lua'
 
 client_script 'client/main.lua'
 
-dependency '/server:4664'
+dependencies {
+    '/onesync',
+    '/server:4664'
+}
