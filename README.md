@@ -8,6 +8,7 @@
 
 ## ความต้องการ
 - [FXServer/win32](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) หรือ [FXServer/linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/) เวอร์ชัน `4664` ขึ้นไป
+- เปิดใช้งาน `OneSync`
 
 ## ดาวน์โหลด
 
