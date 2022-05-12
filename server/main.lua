@@ -38,7 +38,7 @@ Citizen.CreateThread(function()
         continue = true
     end)
     
-    while not GetConvar('sv_projectDesc') and not continue do
+    while GetConvar('sv_projectDesc', 'NULL') == 'NULL' and not continue do
         Citizen.Wait(1000)
     end
 
