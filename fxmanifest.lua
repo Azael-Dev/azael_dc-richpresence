@@ -1,24 +1,20 @@
 fx_version 'cerulean'
-
 game 'gta5'
 
-name 'azael_dc-richpresence'
-
+author 'Azael Dev <contact@azael.dev> (https://www.azael.dev/)'
 description 'DC - Rich Presence'
-
-version '1.1.4'
-
-author 'Azael Dev'
-
+version '1.1.5'
 url 'https://github.com/Azael-Dev/azael_dc-richpresence'
 
-shared_script 'config.lua'
+lua54 'yes'
 
-server_script 'server/main.lua'
+shared_script 'config/shared.config.lua'
 
-client_script 'client/main.lua'
+server_script 'source/server/main.server.lua'
+
+client_script 'source/client/main.client.lua'
 
 dependencies {
-    '/onesync',
-    '/server:4664'
+    '/server:4664',
+    '/onesync'
 }
